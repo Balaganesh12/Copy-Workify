@@ -1,0 +1,38 @@
+.emailSentPage {
+  width: 750px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+
+  .resetLinkSent {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    .resetLinkSentTitle {
+      color: vars.$color-secondary;
+      font-weight: 400;
+    }
+
+    .resetLinkSentText {
+      color: vars.$color-secondary;
+    }
+
+    .resetLinkSentButton {
+      color: vars.$color-link;
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    .disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+  }
+}

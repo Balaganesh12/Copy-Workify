@@ -1,0 +1,59 @@
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 0.8px solid vars.$border-color;
+  justify-content: space-between;
+
+  .logoCompact {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: vars.$hover-color;
+    }
+  }
+
+  .searchContainer {
+    width: 400px;
+    height: 40px;
+
+    .searchIcon {
+      width: 24px;
+      height: 24px;
+      gap: 8px;
+    }
+  }
+
+  .profileActions {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+
+    .notificationContainer {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+    }
+
+    .notificationIcon {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
+
+    .avatar {
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+}

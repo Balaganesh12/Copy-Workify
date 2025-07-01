@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  gap: 5px;
+  padding: 8px;
+}
+
+.actionItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: vars.$hover-color;
+  }
+
+  span {
+    margin-top: 4px;
+    font-size: 12px;
+  }
+}

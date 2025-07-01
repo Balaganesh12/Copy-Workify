@@ -1,0 +1,18 @@
+.formSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .formSectionHeader {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    .formSectionTitle {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+    }
+  }
+}

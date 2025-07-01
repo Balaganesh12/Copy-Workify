@@ -1,0 +1,35 @@
+.formHeader {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+
+  .formTitle {
+    font-size: vars.$form-header-title-font-size;
+    font-weight: vars.$form-header-title-font-weight;
+    line-height: vars.$form-header-title-line-height;
+  }
+
+  .logoExpanded {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 1;
+    visibility: visible;
+    transition:
+      opacity 0.3s ease,
+      visibility 0.3s ease;
+    transform: scale(1);
+    transition:
+      opacity 0.3s ease,
+      visibility 0.3s ease,
+      transform 0.3s ease;
+
+    .logoTitle {
+      font-size: vars.$form-header-title-font-size;
+      white-space: nowrap;
+    }
+  }
+}

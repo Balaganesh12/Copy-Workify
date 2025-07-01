@@ -1,0 +1,14 @@
+.pieChart {
+  width: 368px;
+  height: 228px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .pieChartContent {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+}

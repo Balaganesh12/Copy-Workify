@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 380px;
+}
+
+.loginButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  height: vars.$button-height;
+  width: 100%;
+  background: vars.$color-button;
+  border-radius: vars.$button-radius;
+  border: 1px solid vars.$color-input-border;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  span {
+    font-family: vars.$font-family-base;
+    font-weight: vars.$button-font-weight;
+    font-size: vars.$button-font-size;
+    line-height: vars.$button-line-height;
+    color: vars.$color-link;
+  }
+
+  &:hover {
+    background: vars.$hover-color;
+    border-color: vars.$border-color;
+  }
+
+  &:active {
+    background: vars.$hover-color;
+    transform: scale(0.98);
+  }
+}

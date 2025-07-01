@@ -1,0 +1,23 @@
+.alertError {
+  display: flex;
+  gap: 12px;
+
+  .alertErrorText {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    .alertErrorTextTitle {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+
+  .alertErrorTextDescription {
+    color: vars.$color-secondary;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+}

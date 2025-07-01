@@ -1,0 +1,18 @@
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.closeIcon {
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

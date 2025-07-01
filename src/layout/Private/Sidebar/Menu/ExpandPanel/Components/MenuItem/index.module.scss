@@ -1,0 +1,32 @@
+.menuItem {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  height: 32px;
+  padding: 6px 8px;
+  align-items: center;
+  gap: 8px;
+
+  &:hover {
+    background-color: vars.$hover-color;
+  }
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: vars.$color-primary;
+  flex-grow: 1;
+  white-space: nowrap;
+}

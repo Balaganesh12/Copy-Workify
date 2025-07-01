@@ -1,0 +1,29 @@
+.menuWrapper {
+  .menuWrapperHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 8px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: vars.$hover-color;
+    }
+  }
+
+  .menuWrapperHeaderTitle {
+    color: vars.$color-link;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .menuWrapperHeaderTitle p {
+    margin: 0; // remove default margin
+  }
+
+  .menuWrapperHeaderIcon {
+    width: 16px;
+    height: 16px;
+  }
+}

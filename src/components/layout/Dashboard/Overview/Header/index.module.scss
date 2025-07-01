@@ -1,0 +1,23 @@
+.overviewHeader {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .overviewHeaderLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .overviewHeaderRight {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    .comparePeriodText {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}

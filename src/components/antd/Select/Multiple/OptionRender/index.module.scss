@@ -1,0 +1,26 @@
+.transferListItem {
+  width: 320px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.label {
+  font-weight: 400;
+}
+
+.checkboxIconContainer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  line-height: 22px;
+}

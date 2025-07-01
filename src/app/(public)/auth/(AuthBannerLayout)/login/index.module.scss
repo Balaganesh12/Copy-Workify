@@ -1,0 +1,24 @@
+.submitSection {
+  width: 100%;
+}
+
+.registerSection {
+  .registerText {
+    color: vars.$color-secondary;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .registerLink {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.termsSection {
+  .termsLink,
+  .privacyLink {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

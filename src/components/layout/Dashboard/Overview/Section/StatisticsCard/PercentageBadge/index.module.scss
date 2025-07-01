@@ -1,0 +1,20 @@
+.percentageBadge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  border-radius: 24px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 4px 8px;
+
+  &.positive {
+    background-color: vars.$statistics-card-positive-background-color;
+    color: vars.$statistics-card-positive-text-color;
+  }
+
+  &.negative {
+    background-color: vars.$statistics-card-negative-background-color;
+    color: vars.$statistics-card-negative-text-color;
+  }
+}

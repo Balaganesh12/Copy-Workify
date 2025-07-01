@@ -1,0 +1,12 @@
+.dashboardTableHeader {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .dashboardTableHeaderLeft {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}

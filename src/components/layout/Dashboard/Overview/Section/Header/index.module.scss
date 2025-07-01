@@ -1,0 +1,31 @@
+.pieChartHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .pieChartHeaderTitle {
+    display: flex;
+    flex-direction: column;
+
+    .pieChartHeaderTitle {
+      color: vars.$statistics-card-title-color;
+      font-weight: 500;
+    }
+
+    .pieChartHeaderSubtitle {
+      color: vars.$statistics-card-subtitle-color;
+      font-weight: 400;
+    }
+  }
+
+  .pieChartHeaderCount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .Count {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+}

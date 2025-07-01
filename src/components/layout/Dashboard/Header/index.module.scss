@@ -1,0 +1,18 @@
+.dashboardHeader {
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .dashboardHeaderLeft {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .dashboardHeaderRight {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+}

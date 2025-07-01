@@ -1,0 +1,15 @@
+name: Scheduled Vercel Deploy - 10PM IST / 6:30PM NL Time
+
+on:
+  schedule:
+    - cron: '30 18 * * *' # 6:30 PM Netherlands Time (CEST)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Deploy Hook
+        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_xhfAAMoMPzxaM95I2nfVtQWh5Qao/I5srg8s3QY
+# Deploy runs at:
+# 🕙 10:00 PM India Time (IST)
+# 🕡 6:30 PM Netherlands Time (CEST)

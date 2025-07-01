@@ -1,0 +1,66 @@
+// Color Tokens
+$color-primary: #1f2937;
+$color-secondary: #4b5563;
+$color-accent-blue: #0ba5ec;
+$color-gray-light: #e5e7eb;
+$color-tertiary: #6b7280;
+$color-red: #f04438;
+
+$color-border: $color-gray-light;
+$color-placeholder: #9ca3af;
+$color-link: $color-accent-blue;
+$color-link-hover: #007bff;
+$color-select-hover-bg: #b9e6fe;
+$color-input-border: $color-gray-light;
+$color-input-border-hover: $color-tertiary;
+$color-input-border-focus: $color-accent-blue;
+
+$color-input-bg: #ffffff;
+
+$color-divider: #4b5563;
+
+$color-input-error-border: $color-red;
+$color-input-error-bg: #ffffff;
+
+$color-button: #ffffff;
+$color-button-bg: $color-accent-blue;
+$color-button-disabled: #ffffffeb;
+$color-button-bg-disabled: #0ba5ec66;
+$color-disabled-text: #4b556366;
+
+// Font
+$font-family-base: 'Inter', sans-serif;
+$font-size-base: 14px;
+$font-line-height-base: 20px;
+
+// Form
+$form-header-title-font-size: 32px;
+$form-header-title-font-weight: 700;
+$form-header-title-line-height: 48px;
+
+$form-item-gap: 32px;
+$form-label-color: $color-primary;
+$form-label-font-weight: 500;
+$form-label-font-size: 16px;
+$form-label-line-height: 20px;
+$form-input-height: 40px;
+$form-input-radius: 6px;
+$form-error-color: $color-input-error-border;
+
+// Button
+$button-height: 40px;
+$button-radius: 6px;
+$button-font-size: 16px;
+$button-line-height: 24px;
+$button-font-weight: 500;
+
+$border-color: #eeeff1;
+$hover-color: #f3f4f6;
+
+// Statistics Card
+$statistics-card-title-color: $color-primary;
+$statistics-card-subtitle-color: $color-tertiary;
+$statistics-card-positive-text-color: #027a48;
+$statistics-card-negative-text-color: #b42318;
+$statistics-card-positive-background-color: #d1fadf;
+$statistics-card-negative-background-color: #fee4e2;

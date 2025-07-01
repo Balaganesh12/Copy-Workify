@@ -1,0 +1,14 @@
+.title {
+  width: 100%;
+  border-bottom: 1px solid vars.$border-color;
+}
+
+.popover {
+  .ant-popover-inner {
+    padding: 0 !important;
+  }
+
+  .popoverContent {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,73 @@
+.sidebarHeaderWrapper {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid vars.$border-color;
+
+  .headerContainerCollapsed {
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: vars.$hover-color;
+    }
+  }
+
+  .headerContainerExpanded {
+    justify-content: space-between;
+  }
+
+  .headerInnerContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    padding: 10px 16px;
+
+    .logoCompact {
+      cursor: pointer;
+
+      &:hover {
+        background-color: vars.$hover-color;
+      }
+    }
+
+    .logoExpanded {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      opacity: 1;
+      visibility: visible;
+      transition:
+        opacity 0.3s ease,
+        visibility 0.3s ease;
+      transform: scale(1);
+      transition:
+        opacity 0.3s ease,
+        visibility 0.3s ease,
+        transform 0.3s ease;
+
+      .logoTitle {
+        font-size: 20px;
+        font-weight: 600;
+        white-space: nowrap;
+      }
+    }
+
+    .hidden {
+      opacity: 0;
+      visibility: hidden;
+      transform: scale(0.95);
+    }
+
+    .collapseButtonWrapper {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

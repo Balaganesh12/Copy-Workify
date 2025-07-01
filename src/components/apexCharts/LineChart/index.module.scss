@@ -1,0 +1,37 @@
+.chartContainer {
+  height: 160px;
+  width: 100%;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+.tooltipBox {
+  padding: 8px;
+  height: 66px;
+  font-size: 12px;
+  color: vars.$color-secondary;
+
+  .tooltipRow {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+
+      span {
+        height: 2px;
+        width: 12px;
+      }
+
+      &.current span {
+        background: vars.$color-accent-blue;
+      }
+
+      &.previous span {
+        background: vars.$color-gray-light;
+      }
+    }
+  }
+}
