@@ -3,3 +3,16 @@
     text-transform: capitalize;
   }
 }
+.home-container{
+  /* AntD Pagination: Remove default border for single border effect */
+  .ant-pagination-item {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  
+  /* Remove left border from AntD table header cells */
+  .ant-table-thead>tr>th.ant-table-cell::before {
+    display: none !important;
+  }
+  }
